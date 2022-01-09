@@ -193,7 +193,7 @@
 /* Banner */
 .banner{
     width: 100%;
-    padding: 100px 0;
+    padding: 25px 0;
     background-color: #000000;
     position: relative;
     top: 80px;
@@ -212,7 +212,7 @@
 }
 
 .bannerContainer h1{
-    font-size:60px;
+    font-size:80px;
     color: aliceblue;
 }
 
@@ -246,6 +246,17 @@
     border-radius: 8px;
 }
 
+@media screen and (max-width:768px) {
+    .bannerContainer{
+        padding: 100px 0;
+    }
+    .bannerContainer h1{
+        font-size: 50px;
+    }
+    .bannerContainer p{
+        font-size: 1rem;
+    }
+}
 
 
 
