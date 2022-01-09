@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="navbarContener">
-                <a href="#home" id="navbar_logo">COLOR</a>
+                <a href="#home" id="navbar_logo">PETCARE</a>
                 <div class="navbar_toggle" id="mobile-menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -21,10 +22,16 @@
                         <a href="#home" class="navbar_links" id="home-page">Home</a>
                     </li>
                     <li class="navbar_item">
-                        <a href="#about" class="navbar_links" id="about-page">About</a>
+                        <a href="#features" class="navbar_links" id="home-page">Features</a>
                     </li>
                     <li class="navbar_item">
                         <a href="#services" class="navbar_links" id="services-page">Services</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#feedback" class="navbar_links" id="services-page">Feedback</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#about" class="navbar_links" id="about-page">About</a>
                     </li>
                     <li class="navbar_btn">
                         <a href="#signup" class="button" id="signup">SignUp</a>
@@ -35,13 +42,48 @@
         </nav>
     </header>
     <main>
-        <div class="banner">
+        <div class="banner" id="home">
             <div class="bannerContainer">
                 <h1>Welcome</h1>
                 <h1>to</h1>
                 <h1><span>PetCare</span></h1>
-                <p>to take care of your pet is our responsibility</p>
+                <p>take care of your pet is our responsibility</p>
                 <a href="/" class="bannerButton">Explore</a>
+            </div>
+        </div>
+
+        <div class="feature" id='features'>
+            <div class="title">
+                <h2><span>Features</span></h2>
+                <p>Why choose us</p>
+            </div>
+            <div class="featureContainer">
+                <div class="featureDescription">
+                    <h3>Experience Staff</h3>
+                    <div class="feature-content-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-paw"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>We have 20+ experience staffs.They love to take care of animal and reliable.
+                             Moreover,they have various kind of skills that help them to look your pet.Apart from this 
+                             some of staff work as pet sitter as well. </p>
+                        </div>
+                    </div>
+
+                    <h3>City's No.1 pet care</h3>
+                    <div class="feature-content-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>We have won city's No.1 award to provide great service in the year 2020 and we are still at No.1 position in the city. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featureImage">
+                    <img  alt="">
+                </div>
             </div>
         </div>
     </main>

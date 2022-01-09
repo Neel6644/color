@@ -118,7 +118,6 @@
         opacity: 1;
         transition: all 0.5s ease; 
         z-index: -1;
-
     }
 
     .navbar_menu.active{
@@ -127,7 +126,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 60vh;
+        height: 80vh;
         font-size: 1.6rem;
     } 
 
@@ -151,13 +150,13 @@
 
     .navbar_links{
         text-align: center;
-        padding: 2rem;
+        padding: 1.5rem;
         width: 100%;
         display: table;
     }
 
     .navbar_btn{
-        padding-bottom: 2rem;
+        padding-bottom:1.5rem;
     }
 
     .button{
@@ -257,6 +256,105 @@
         font-size: 1rem;
     }
 }
+/* Global */
+.title{
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h2{
+    font-size: 2rem;
+    background: #EF3B36;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e49696, #ec211a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+/* feature */
+.feature{
+    background: white;
+    width: 100%;
+    position: relative;
+    padding: 25px 0;
+    top: 80px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+.featureContainer{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    margin: 20px auto ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.featureContainer .featureDescription{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featureDescription .feature-content-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.feature-content-desc .fa{
+    font-size: 50px;
+    margin-right: 20px;
+    background: #EF3B36;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+.feature-content-desc .feature-text{
+    text-align: justify;
+}
+
+.featureContainer .featureImage{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.featureContainer .featureImage img{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0,0,0,0.1), #e08a879a),url(Resourse/images/experienceStaff.jpg);
+}
+
+@media screen and (max-width:768px) {
+    .featureContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .featureDescription{
+        padding: 50px 0;
+    }
+}
+
 
 
 
