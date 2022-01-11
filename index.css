@@ -455,6 +455,10 @@
         flex-basis: 60%;
     }
 
+    .singleService img{
+        height: 300px;
+    }
+
    
 }
 
