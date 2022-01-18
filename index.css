@@ -472,11 +472,13 @@
     position: relative;
     top: 80px;
     padding: 20px;
-   
+    height: 80vh;
 }
 
 .testimonialContainer{
     display: flex;
+    align-items: center;
+    height: 80%;
 }
 
 .singletestimonial{
@@ -559,6 +561,119 @@
         font-size: 1rem;
      }
 }
+
+
+/* Contact */
+.contact{
+    position: relative;
+    top: 80px;
+    padding: 20px;
+    height: 80vh;
+    background: linear-gradient(to right,#161616,#000000);
+}
+
+.contact .title p {
+    color: aliceblue;
+}
+
+.contactContainer{
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.contactDetails{
+    text-align: right;
+}
+
+.details{
+    margin-top: 10px;
+}
+
+.details p{
+    font-size: 0.9rem;
+}
+
+.details .fa-right{
+    margin-right: 10px;
+}
+
+.details .fa-left{
+    margin-left: 10px;
+}
+
+.socialLinks{
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialLinks .fa{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    font-size: 35px;
+    border-radius: 10px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 5px;
+    transition: 0.8s;
+}
+
+.socialLinks .fa:hover{
+  color: #000000;
+  background: white;
+  transform: translateY(-10px);
+}
+
+.contactDetails .detailsFont{
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (max-width:740px) {
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactDetails{
+        margin-top: 20px;
+    }
+
+    .contactDetails, .openingTime{
+        text-align: start;
+    }
+
+    .contactDetails .detailsFont{
+        justify-content: start;
+        flex-direction: row-reverse;
+    }
+    
+    .details .fa-left{
+         margin-right: 10px;
+        flex-direction: start;
+    }
+    
+
+    
+}
+
+
+footer{
+ background: linear-gradient(to right,#161616,#000000);
+ position: relative;
+ top: 80px;
+ color: white;
+ padding: 20px;
+}
+
 
 
 
